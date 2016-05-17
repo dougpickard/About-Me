@@ -1,0 +1,142 @@
+*{
+/*   Layout Declarations */
+  box-sizing: border-box;
+}
+
+
+body{
+  /*Typography Decelarations*/
+  color: #222222
+  font-size:1em;
+  font-family:"Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+::selection{
+  /*Appearance Declarations*/
+  background:#FFE799;
+}
+
+/* Link Styles */
+a {
+   /*Typography Decelarations*/
+  font-weight: bold;
+  text-decoration: none;
+  color:#FFCF33;
+}
+
+a:visited{
+  /*Typography Decelarations*/
+  color:#D1A000;
+}
+
+a:hover{
+  /*Typography Decelarations*/
+  color:Red;
+}
+
+.side-padding {
+    /* Layout Declarations */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.text-center{
+ 
+  text-align: center;
+}
+
+.content-width{
+   /* Layout Declarations */
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light-font > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.masthead{
+  /* Layout Declarations */
+  padding: 6em 0;
+  /* Appearance Declrations */
+  background-image: url(http://i.imgur.com/pjhx0AB.jpg?1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #14ACCC;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading{
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #695D34;
+  text-shadow: 0px 3px 0px #CCB665;
+}
+
+.heading {
+  /* Layout Declarations */
+  max-width: 19em;
+  margin-top: 2em;
+}
+
+.moreaboutme-section > h3 {
+  /*Typography Declarions */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.content-footer{
+   /* Layout Declarations */
+  margin-top: 5em;
+  padding: 4em 0;
+  /* Appearance Rules */
+  /*   Red, Green, Blue; #RRGGBB */
+  background-color: #14ACCC;
+}
+
+.content-footer > p{
+  /* Typography Declarations */
+   color: White;
+}
+
+.social{
+  padding: 0;
+  list-style: none;
+}
+
+.social > li{
+  display: inline-block;
+  margin-right: 1em;
+}
+
+ul.social{
+  padding-left:0;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
